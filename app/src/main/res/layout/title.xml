@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DCDCDC"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:background="@null"
+        android:text="Back"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:text="THJX-BMS"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:background="@null"
+        android:text="Info"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
